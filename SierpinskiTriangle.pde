@@ -7,10 +7,6 @@ public void draw()
   background(230, 230, 250);
   sierpinski(100, 380, 300);
 }
-public void mousePressed()//optional
-{
-  
-}
 public void sierpinski(int x, int y, int len) 
 {
   if (len <= 20)
